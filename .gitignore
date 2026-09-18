@@ -1,0 +1,27 @@
+﻿# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+
+# Data (keep CSV but ignore derived outputs)
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
